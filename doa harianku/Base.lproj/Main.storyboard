@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="d1V-Rt-LLd">
+            <objects>
+                <viewController id="Ms0-4X-lBg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bDf-kY-9vH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iQy-fx-qzF">
+                                <rect key="frame" x="0.0" y="233" width="375" height="434"/>
+                                <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">
+اَلْحَمْدُ ِللهِ الَّذِىْ اَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مُسْلِمِيْنَ
+Alhamdu lillaahil ladzii ath'amanaa wa saqoonaa wa ja'alnaa muslimiin
+
+Artinya: "Segala puji bagi Allah yang telah memberi makan kami dan minuman kami, serta menjadikan kami sebagai orang-orang islam"
+</string>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doa Sesudah Makan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfc-iq-bkp">
+                                <rect key="frame" x="91" y="124" width="193" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iQy-fx-qzF" firstAttribute="bottom" secondItem="cqM-A9-bjf" secondAttribute="bottom" id="0BL-8h-Dux"/>
+                            <constraint firstItem="iQy-fx-qzF" firstAttribute="trailing" secondItem="cqM-A9-bjf" secondAttribute="trailing" id="Buf-a4-j1M"/>
+                            <constraint firstItem="hfc-iq-bkp" firstAttribute="top" secondItem="cqM-A9-bjf" secondAttribute="top" constant="60" id="Hfg-Wf-gis"/>
+                            <constraint firstItem="cqM-A9-bjf" firstAttribute="trailing" secondItem="hfc-iq-bkp" secondAttribute="trailing" constant="91" id="Kf8-yQ-QMq"/>
+                            <constraint firstItem="iQy-fx-qzF" firstAttribute="leading" secondItem="cqM-A9-bjf" secondAttribute="leading" id="Vek-D8-f1B"/>
+                            <constraint firstItem="iQy-fx-qzF" firstAttribute="top" secondItem="hfc-iq-bkp" secondAttribute="bottom" constant="85" id="XvA-XR-C8u"/>
+                            <constraint firstItem="hfc-iq-bkp" firstAttribute="leading" secondItem="cqM-A9-bjf" secondAttribute="leading" constant="91" id="fzg-ly-weG"/>
+                            <constraint firstItem="iQy-fx-qzF" firstAttribute="top" secondItem="hfc-iq-bkp" secondAttribute="bottom" constant="85" id="oso-JE-SMp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cqM-A9-bjf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3x7-7R-g8Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2244" y="-467.3163418290855"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LeO-hl-grk">
+            <objects>
+                <viewController id="RT3-oz-DHe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vD8-Nn-y8c">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Fsx-yj-abZ">
+                                <rect key="frame" x="0.0" y="233" width="375" height="434"/>
+                                <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">
+اَلْحَمْدُ ِللهِ الَّذِيْ قَطْلَ الْحَاجَتِ
+Alhamdulillahil ladzii qodzoo haajaati
+
+Artinya: "Segala puji bagi Allah yang telah memberi hajatku"
+</string>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doa Ketika Mendapat MImpi Baik" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IsJ-sh-m5h">
+                                <rect key="frame" x="31" y="124" width="313" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IsJ-sh-m5h" firstAttribute="leading" secondItem="ZFR-rn-t08" secondAttribute="leading" constant="31" id="1fy-pP-p6A"/>
+                            <constraint firstItem="Fsx-yj-abZ" firstAttribute="leading" secondItem="ZFR-rn-t08" secondAttribute="leading" id="N7P-BL-oqb"/>
+                            <constraint firstItem="ZFR-rn-t08" firstAttribute="trailing" secondItem="IsJ-sh-m5h" secondAttribute="trailing" constant="31" id="NkC-Ak-YWm"/>
+                            <constraint firstItem="Fsx-yj-abZ" firstAttribute="top" secondItem="IsJ-sh-m5h" secondAttribute="bottom" constant="85" id="iQM-WF-V7a"/>
+                            <constraint firstItem="Fsx-yj-abZ" firstAttribute="trailing" secondItem="ZFR-rn-t08" secondAttribute="trailing" id="iq0-5E-ROL"/>
+                            <constraint firstItem="Fsx-yj-abZ" firstAttribute="top" secondItem="IsJ-sh-m5h" secondAttribute="bottom" constant="85" id="laC-yC-sN1"/>
+                            <constraint firstItem="IsJ-sh-m5h" firstAttribute="top" secondItem="ZFR-rn-t08" secondAttribute="top" constant="60" id="mTP-NB-WFM"/>
+                            <constraint firstItem="Fsx-yj-abZ" firstAttribute="bottom" secondItem="ZFR-rn-t08" secondAttribute="bottom" id="pII-Ow-dWh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZFR-rn-t08"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LUh-n6-Ctq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2978.4000000000001" y="-465.51724137931041"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="T5o-AY-oZM">
+            <objects>
+                <viewController id="dJD-j3-uZr" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rmn-yf-v8w">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3p0-3e-gbv">
+                                <rect key="frame" x="0.0" y="233" width="375" height="434"/>
+                                <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">
+اَللّٰهُمَّ إِنّىِ أَعُوْذُ بِكَ مِنْ عَمَلِ الشَّيْطَانِ وَسَيِّئاَتِ اْلأَحْلاَمِ
+
+Allaahumma innii a'uudzubika min 'amalisy syaithaani wa sayyiaatil ahlami
+
+Artinya: "Ya Allah, sesungguhnya aku mohon perlindungan kepada Engkau dari perbuatan setan dan dari mimpi-mimpi yang buruk"
+</string>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doa Ketika Mimpi Buruk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olV-6w-SWQ">
+                                <rect key="frame" x="55" y="124" width="265" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3p0-3e-gbv" firstAttribute="trailing" secondItem="oAJ-SD-ff7" secondAttribute="trailing" id="4wr-N9-UyE"/>
+                            <constraint firstItem="3p0-3e-gbv" firstAttribute="bottom" secondItem="oAJ-SD-ff7" secondAttribute="bottom" id="6ZX-ux-0F3"/>
+                            <constraint firstItem="olV-6w-SWQ" firstAttribute="leading" secondItem="oAJ-SD-ff7" secondAttribute="leading" constant="55" id="7KF-r5-PFx"/>
+                            <constraint firstItem="3p0-3e-gbv" firstAttribute="bottom" secondItem="oAJ-SD-ff7" secondAttribute="bottom" id="9qa-EA-td4"/>
+                            <constraint firstItem="3p0-3e-gbv" firstAttribute="top" secondItem="olV-6w-SWQ" secondAttribute="bottom" constant="85" id="Gf0-qU-1zb"/>
+                            <constraint firstItem="3p0-3e-gbv" firstAttribute="leading" secondItem="oAJ-SD-ff7" secondAttribute="leading" id="HEE-Lg-KAi"/>
+                            <constraint firstItem="3p0-3e-gbv" firstAttribute="top" secondItem="olV-6w-SWQ" secondAttribute="bottom" constant="85" id="YtM-RD-eII"/>
+                            <constraint firstItem="olV-6w-SWQ" firstAttribute="top" secondItem="oAJ-SD-ff7" secondAttribute="top" constant="60" id="ctW-RF-Mmd"/>
+                            <constraint firstItem="3p0-3e-gbv" firstAttribute="leading" secondItem="oAJ-SD-ff7" secondAttribute="leading" id="eg0-XR-HI3"/>
+                            <constraint firstItem="3p0-3e-gbv" firstAttribute="trailing" secondItem="oAJ-SD-ff7" secondAttribute="trailing" id="iAT-hi-kYw"/>
+                            <constraint firstItem="oAJ-SD-ff7" firstAttribute="trailing" secondItem="olV-6w-SWQ" secondAttribute="trailing" constant="55" id="kAT-po-uY9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="oAJ-SD-ff7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gvC-Bk-pmB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3751.1999999999998" y="-482.60869565217394"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="F5m-wz-QJO">
+            <objects>
+                <viewController id="bE8-vK-ovD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PUS-Ss-iyX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wxq-Hu-nTV">
+                                <rect key="frame" x="0.0" y="233" width="375" height="434"/>
+                                <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">
+اَلْحَمْدُ ِللهِ الَّذِىْ اَحْيَانَا بَعْدَمَآ اَمَاتَنَا    وَاِلَيْهِ النُّشُوْرُ  
+                                                    Alhamdu lillahil ladzii ahyaanaa ba'da maa amaa tanaa wa ilahin nusyuuru
+
+Artinya : "Segala puji bagi Allah yang telah menghidupkan kami sesudah kami mati (membangunkan dari tidur) dan hanya kepada-Nya kami dikembalikan"
+</string>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doa Bangun Tidur" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vkf-Ya-Df7">
+                                <rect key="frame" x="103" y="124" width="169" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wxq-Hu-nTV" firstAttribute="bottom" secondItem="lKQ-3x-cac" secondAttribute="bottom" id="4GI-Vg-F6c"/>
+                            <constraint firstItem="wxq-Hu-nTV" firstAttribute="top" secondItem="vkf-Ya-Df7" secondAttribute="bottom" constant="85" id="FUU-q0-fNN"/>
+                            <constraint firstItem="wxq-Hu-nTV" firstAttribute="leading" secondItem="lKQ-3x-cac" secondAttribute="leading" id="GnW-XW-kZo"/>
+                            <constraint firstItem="lKQ-3x-cac" firstAttribute="trailing" secondItem="vkf-Ya-Df7" secondAttribute="trailing" constant="103" id="GyE-rD-qei"/>
+                            <constraint firstItem="vkf-Ya-Df7" firstAttribute="leading" secondItem="lKQ-3x-cac" secondAttribute="leading" constant="103" id="NY3-hc-sVg"/>
+                            <constraint firstItem="vkf-Ya-Df7" firstAttribute="top" secondItem="lKQ-3x-cac" secondAttribute="top" constant="60" id="R3G-cR-Dbs"/>
+                            <constraint firstItem="wxq-Hu-nTV" firstAttribute="top" secondItem="vkf-Ya-Df7" secondAttribute="bottom" constant="85" id="e6j-77-KAb"/>
+                            <constraint firstItem="wxq-Hu-nTV" firstAttribute="trailing" secondItem="lKQ-3x-cac" secondAttribute="trailing" id="w9F-Vi-irX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lKQ-3x-cac"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tri-pk-vpF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4501.6000000000004" y="-465.51724137931041"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IvZ-ZQ-9g4">
+            <objects>
+                <viewController id="s4o-zB-feK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J7f-EJ-XwX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dFl-Gc-bdh">
+                                <rect key="frame" x="0.0" y="233" width="375" height="434"/>
+                                <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">
+غُفْرَانَكَ الْحَمْدُ ِللهِ الَّذِىْ اَذْهَبَ عَنّى اْلاَذَى وَعَافَانِىْ
+Ghufraanaka. Alhamdulillaahil ladzii adzhaba ‘annjil adzaa wa’aafaanii.
+
+Artinya: "Dengan mengharap ampunanMu, segala puji milik Allah yang telah menghilangkan kotoran dari badanku dan yang telah menyejahterakan."
+</string>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doa Ketika Keluar Kamar Mandi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pD5-z7-Enc">
+                                <rect key="frame" x="40" y="124" width="295" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dFl-Gc-bdh" firstAttribute="top" secondItem="pD5-z7-Enc" secondAttribute="bottom" constant="85" id="3lw-Qb-Ygy"/>
+                            <constraint firstItem="dFl-Gc-bdh" firstAttribute="leading" secondItem="Xu6-E9-tb7" secondAttribute="leading" id="6Ub-2E-Qsh"/>
+                            <constraint firstItem="pD5-z7-Enc" firstAttribute="leading" secondItem="Xu6-E9-tb7" secondAttribute="leading" constant="40" id="GAo-xF-f4t"/>
+                            <constraint firstItem="dFl-Gc-bdh" firstAttribute="bottom" secondItem="Xu6-E9-tb7" secondAttribute="bottom" id="GsK-Yp-kXZ"/>
+                            <constraint firstItem="Xu6-E9-tb7" firstAttribute="trailing" secondItem="pD5-z7-Enc" secondAttribute="trailing" constant="40" id="ZZV-H6-Vpc"/>
+                            <constraint firstItem="pD5-z7-Enc" firstAttribute="top" secondItem="Xu6-E9-tb7" secondAttribute="top" constant="60" id="cSa-SK-Ppq"/>
+                            <constraint firstItem="dFl-Gc-bdh" firstAttribute="trailing" secondItem="Xu6-E9-tb7" secondAttribute="trailing" id="ceL-1a-WJP"/>
+                            <constraint firstItem="dFl-Gc-bdh" firstAttribute="top" secondItem="pD5-z7-Enc" secondAttribute="bottom" constant="85" id="d48-5Q-ElA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Xu6-E9-tb7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FeR-MU-HkF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5290.3999999999996" y="-467.3163418290855"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="r52-3D-NWm">
+            <objects>
+                <viewController id="jey-kg-msR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Ax-TD-NDD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HwB-3a-Sko">
+                                <rect key="frame" x="207" y="172" width="152" height="30"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.09765625" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Doa Setelah Makan">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Ms0-4X-lBg" kind="show" id="Vhq-SZ-14F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1E-xQ-KnA">
+                                <rect key="frame" x="16" y="276" width="163" height="30"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.1003050086" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Doa Ketika Mimpi Buruk">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dJD-j3-uZr" kind="show" id="G56-qm-DSK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4f8-vK-uyB">
+                                <rect key="frame" x="207" y="224" width="152" height="30"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.102151113" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Doa Sebelum Tidur">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="n32-x8-N5D" kind="show" id="5AC-Bn-kqM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bIN-sm-5dm">
+                                <rect key="frame" x="16" y="224" width="163" height="30"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.095596104449999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Doa Setelah Minum">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="d54-5w-zpT" kind="show" id="QVf-vS-qvV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZDs-pG-QsA">
+                                <rect key="frame" x="207" y="276" width="152" height="30"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.1012146832" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Doa Ketika Mimpi Baik">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="RT3-oz-DHe" kind="show" id="3XY-8o-XDZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JQc-Q5-Nab">
+                                <rect key="frame" x="207" y="328" width="152" height="30"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.099341823630000006" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Doa Masuk Kamar Mandi">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9Fj-9P-sqk" kind="show" id="PKt-e1-GdG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gmR-Tr-OBx">
+                                <rect key="frame" x="207" y="380" width="152" height="30"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.1036226455" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Doa Istinja">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="oxm-hI-MWw" kind="show" id="Oyo-oL-l3i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="glJ-rU-VQb">
+                                <rect key="frame" x="16" y="484" width="163" height="30"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.10134845889999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Doa Keluar Kamar Mandi">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="s4o-zB-feK" kind="show" id="5dz-sJ-Mh5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FXi-QC-b3O">
+                                <rect key="frame" x="16" y="432" width="163" height="30"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.1005458048" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Doa Keluar Rumah">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="OIM-YF-Hfv" kind="show" id="XVs-OH-K84"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxu-0E-xs7">
+                                <rect key="frame" x="207" y="432" width="152" height="30"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.1036226455" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Doa Memakai Pakaian">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="d7O-uE-uj2" kind="show" id="iUq-rI-IGx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jt2-eT-7jT">
+                                <rect key="frame" x="16" y="380" width="163" height="30"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.0981645976" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Doa Ketika Bercermin">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hHL-vi-PKx" kind="show" id="nJ6-xn-pqq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8DC-7N-DnY">
+                                <rect key="frame" x="16" y="328" width="163" height="30"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.097308433220000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Doa Bangun Tidur">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bE8-vK-ovD" kind="show" id="1uL-Ne-J2E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XWq-HE-Rp1">
+                                <rect key="frame" x="16" y="172" width="163" height="30"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.099502354449999997" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Doa Sebelum Makan">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="whh-qw-sm5" kind="show" id="Rkn-8C-2t9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doa Harian" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AHP-jd-ojF">
+                                <rect key="frame" x="100" y="82" width="174" height="56"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="35"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0HC-tJ-5Rj">
+                                <rect key="frame" x="207" y="484" width="152" height="30"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.10434503420000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Doa Masuk Rumah">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3oD-sV-DXc" kind="show" id="3Ve-uZ-uqf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gmR-Tr-OBx" firstAttribute="trailing" secondItem="bxu-0E-xs7" secondAttribute="trailing" id="7a9-yO-hOo"/>
+                            <constraint firstItem="B1E-xQ-KnA" firstAttribute="baseline" secondItem="ZDs-pG-QsA" secondAttribute="baseline" id="871-p8-5Yc"/>
+                            <constraint firstItem="ZDs-pG-QsA" firstAttribute="leading" secondItem="JQc-Q5-Nab" secondAttribute="leading" id="964-xX-JxL"/>
+                            <constraint firstItem="FXi-QC-b3O" firstAttribute="leading" secondItem="glJ-rU-VQb" secondAttribute="leading" id="CcP-ed-I15"/>
+                            <constraint firstItem="glJ-rU-VQb" firstAttribute="baseline" secondItem="0HC-tJ-5Rj" secondAttribute="baseline" id="Cyq-lw-ZMZ"/>
+                            <constraint firstItem="FXi-QC-b3O" firstAttribute="trailing" secondItem="glJ-rU-VQb" secondAttribute="trailing" id="Dpf-Bb-yva"/>
+                            <constraint firstItem="B1E-xQ-KnA" firstAttribute="trailing" secondItem="8DC-7N-DnY" secondAttribute="trailing" id="E8y-dI-6bv"/>
+                            <constraint firstItem="HwB-3a-Sko" firstAttribute="leading" secondItem="XWq-HE-Rp1" secondAttribute="trailing" constant="28" id="FZX-om-iQ4"/>
+                            <constraint firstItem="8DC-7N-DnY" firstAttribute="top" secondItem="B1E-xQ-KnA" secondAttribute="bottom" constant="22" id="GVb-5T-zJg"/>
+                            <constraint firstItem="AHP-jd-ojF" firstAttribute="top" secondItem="lyt-4N-rwi" secondAttribute="top" constant="18" id="HBF-Go-gOb"/>
+                            <constraint firstItem="HwB-3a-Sko" firstAttribute="trailing" secondItem="4f8-vK-uyB" secondAttribute="trailing" id="HPV-hQ-AFc"/>
+                            <constraint firstItem="4f8-vK-uyB" firstAttribute="trailing" secondItem="ZDs-pG-QsA" secondAttribute="trailing" id="Iyf-Sq-bil"/>
+                            <constraint firstItem="bIN-sm-5dm" firstAttribute="top" secondItem="XWq-HE-Rp1" secondAttribute="bottom" constant="22" id="Jc1-RR-CfV"/>
+                            <constraint firstItem="XWq-HE-Rp1" firstAttribute="baseline" secondItem="HwB-3a-Sko" secondAttribute="baseline" id="MaN-jY-RY4"/>
+                            <constraint firstItem="AHP-jd-ojF" firstAttribute="centerX" secondItem="7Ax-TD-NDD" secondAttribute="centerX" id="NcY-yq-F0f"/>
+                            <constraint firstItem="gmR-Tr-OBx" firstAttribute="leading" secondItem="bxu-0E-xs7" secondAttribute="leading" id="OeR-4f-QLY"/>
+                            <constraint firstItem="bIN-sm-5dm" firstAttribute="trailing" secondItem="B1E-xQ-KnA" secondAttribute="trailing" id="Qax-bs-Ohc"/>
+                            <constraint firstItem="8DC-7N-DnY" firstAttribute="leading" secondItem="jt2-eT-7jT" secondAttribute="leading" id="S9R-zl-QP9"/>
+                            <constraint firstItem="glJ-rU-VQb" firstAttribute="top" secondItem="FXi-QC-b3O" secondAttribute="bottom" constant="22" id="Tpb-ac-9d6"/>
+                            <constraint firstItem="4f8-vK-uyB" firstAttribute="leading" secondItem="ZDs-pG-QsA" secondAttribute="leading" id="Uob-KP-4zV"/>
+                            <constraint firstItem="FXi-QC-b3O" firstAttribute="baseline" secondItem="bxu-0E-xs7" secondAttribute="baseline" id="VHN-0D-YWG"/>
+                            <constraint firstItem="bIN-sm-5dm" firstAttribute="leading" secondItem="B1E-xQ-KnA" secondAttribute="leading" id="WB5-ac-oX9"/>
+                            <constraint firstItem="jt2-eT-7jT" firstAttribute="leading" secondItem="FXi-QC-b3O" secondAttribute="leading" id="XpL-bM-2xi"/>
+                            <constraint firstItem="XWq-HE-Rp1" firstAttribute="leading" secondItem="7Ax-TD-NDD" secondAttribute="leadingMargin" id="Ygu-hQ-VME"/>
+                            <constraint firstItem="bIN-sm-5dm" firstAttribute="baseline" secondItem="4f8-vK-uyB" secondAttribute="baseline" id="fME-0V-sYZ"/>
+                            <constraint firstItem="XWq-HE-Rp1" firstAttribute="leading" secondItem="bIN-sm-5dm" secondAttribute="leading" id="gTB-Li-2cI"/>
+                            <constraint firstItem="jt2-eT-7jT" firstAttribute="baseline" secondItem="gmR-Tr-OBx" secondAttribute="baseline" id="iOh-nJ-n19"/>
+                            <constraint firstItem="FXi-QC-b3O" firstAttribute="top" secondItem="jt2-eT-7jT" secondAttribute="bottom" constant="22" id="jHB-PP-PoQ"/>
+                            <constraint firstItem="HwB-3a-Sko" firstAttribute="trailing" secondItem="7Ax-TD-NDD" secondAttribute="trailingMargin" id="jPV-Vi-zzo"/>
+                            <constraint firstItem="JQc-Q5-Nab" firstAttribute="leading" secondItem="gmR-Tr-OBx" secondAttribute="leading" id="k2d-Vf-POw"/>
+                            <constraint firstItem="8DC-7N-DnY" firstAttribute="trailing" secondItem="jt2-eT-7jT" secondAttribute="trailing" id="kyI-El-SQi"/>
+                            <constraint firstItem="8DC-7N-DnY" firstAttribute="baseline" secondItem="JQc-Q5-Nab" secondAttribute="baseline" id="mWO-yH-0Wq"/>
+                            <constraint firstItem="bxu-0E-xs7" firstAttribute="trailing" secondItem="0HC-tJ-5Rj" secondAttribute="trailing" id="mos-VB-Itd"/>
+                            <constraint firstItem="jt2-eT-7jT" firstAttribute="top" secondItem="8DC-7N-DnY" secondAttribute="bottom" constant="22" id="ndV-QC-1Dr"/>
+                            <constraint firstItem="HwB-3a-Sko" firstAttribute="leading" secondItem="4f8-vK-uyB" secondAttribute="leading" id="nod-vG-BKG"/>
+                            <constraint firstItem="XWq-HE-Rp1" firstAttribute="trailing" secondItem="bIN-sm-5dm" secondAttribute="trailing" id="oRL-cX-2Wo"/>
+                            <constraint firstItem="ZDs-pG-QsA" firstAttribute="trailing" secondItem="JQc-Q5-Nab" secondAttribute="trailing" id="oSS-Xy-ens"/>
+                            <constraint firstItem="jt2-eT-7jT" firstAttribute="trailing" secondItem="FXi-QC-b3O" secondAttribute="trailing" id="qpl-Pl-nHL"/>
+                            <constraint firstItem="bxu-0E-xs7" firstAttribute="leading" secondItem="0HC-tJ-5Rj" secondAttribute="leading" id="rzu-nL-9mh"/>
+                            <constraint firstItem="B1E-xQ-KnA" firstAttribute="leading" secondItem="8DC-7N-DnY" secondAttribute="leading" id="vHq-Im-9bh"/>
+                            <constraint firstItem="JQc-Q5-Nab" firstAttribute="trailing" secondItem="gmR-Tr-OBx" secondAttribute="trailing" id="w68-Wp-nj0"/>
+                            <constraint firstItem="B1E-xQ-KnA" firstAttribute="top" secondItem="bIN-sm-5dm" secondAttribute="bottom" constant="22" id="wfi-q0-H0U"/>
+                            <constraint firstItem="XWq-HE-Rp1" firstAttribute="top" secondItem="AHP-jd-ojF" secondAttribute="bottom" constant="34" id="zXP-50-sws"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lyt-4N-rwi"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WEK-hs-JXd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sxe-PT-bEi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1352.8" y="225.33733133433284"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zXi-cQ-dEW">
+            <objects>
+                <viewController id="whh-qw-sm5" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cdh-7b-hYm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7hs-NY-ojl">
+                                <rect key="frame" x="0.0" y="233" width="375" height="434"/>
+                                <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">اَللّٰهُمَّ بَارِكْ لَنَا فِيْمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّارِ
+Alloohumma barik lanaa fiimaa razatanaa waqinaa 'adzaa bannar
+
+Artinya: "Ya Allah, berkahilah kami dalam rezeki yang telah Engkau berikan kepada kami dan peliharalah kami dari siksa api neraka"
+
+JIka Lupa Membaca Doa Di Awal Maka Membaca
+
+بِسْمِ اللهِ فِىِ أَوَّلِهِ وَآخِرِهِ
+Bismillaahi fii awwalihi wa aakhirihi
+
+Artinya: "Dengan menyebut nama Allah pada awal dan akhirnya"</string>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doa Sebelum Makan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NeL-Qi-0UD">
+                                <rect key="frame" x="91" y="120" width="193" height="24"/>
+                                <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="7hs-NY-ojl" secondAttribute="trailing" id="6GR-jS-37H"/>
+                            <constraint firstItem="7hs-NY-ojl" firstAttribute="leading" secondItem="cdh-7b-hYm" secondAttribute="leading" id="7hN-JR-R5e"/>
+                            <constraint firstItem="7hs-NY-ojl" firstAttribute="bottom" secondItem="W5m-05-kr8" secondAttribute="bottom" id="T6u-9Z-j4K"/>
+                            <constraint firstItem="7hs-NY-ojl" firstAttribute="top" secondItem="NeL-Qi-0UD" secondAttribute="bottom" constant="89" id="XwZ-lZ-rJ1"/>
+                            <constraint firstItem="NeL-Qi-0UD" firstAttribute="centerX" secondItem="7hs-NY-ojl" secondAttribute="centerX" id="dYw-iW-9O0"/>
+                            <constraint firstItem="NeL-Qi-0UD" firstAttribute="top" secondItem="W5m-05-kr8" secondAttribute="top" constant="56" id="xAs-W6-hpO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="W5m-05-kr8"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pr5-fr-dKp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2231.1999999999998" y="218.1409295352324"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="z4F-9a-hSh">
+            <objects>
+                <viewController id="d54-5w-zpT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lzk-Dj-dRu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="nAX-m7-ngP">
+                                <rect key="frame" x="0.0" y="233" width="375" height="434"/>
+                                <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">
+اَلْحَمْدُ ِللهِ الَّذِىْ جَعَلَهُ عَذْبًا فُرَاتًا بِرَحْمَتِهِ وَلَمْ يَجْعَلْهُ مِلْحًا اُجَاجًا بِذُنُوْبِنَا
+Alhamdu lillaahil ladzi ja'alahuu 'adzbam furootam birohmatihii wa lamyaj'alhu milhan ujaajam bidzunuubinaa
+
+Artinya: "Segala puji bagi Allah yang telah menjadikan air ini (minuman) segar dan menggiatkan dengan rahmat-Nya dan tidak menjadikan air ini (minuman) asin lagi pahit karena dosa-dosa kami"
+</string>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doa Setelah Minum" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4d-42-14c">
+                                <rect key="frame" x="93" y="124" width="189" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="a4d-42-14c" firstAttribute="leading" secondItem="HJS-ew-5SD" secondAttribute="leading" constant="93" id="G3h-3Y-uJ3"/>
+                            <constraint firstItem="nAX-m7-ngP" firstAttribute="bottom" secondItem="HJS-ew-5SD" secondAttribute="bottom" id="Q47-fC-vFP"/>
+                            <constraint firstAttribute="trailing" secondItem="nAX-m7-ngP" secondAttribute="trailing" id="Q8T-Cv-sf0"/>
+                            <constraint firstItem="a4d-42-14c" firstAttribute="centerX" secondItem="nAX-m7-ngP" secondAttribute="centerX" id="Txj-kh-1HH"/>
+                            <constraint firstItem="nAX-m7-ngP" firstAttribute="leading" secondItem="lzk-Dj-dRu" secondAttribute="leading" id="YvO-0P-XxJ"/>
+                            <constraint firstItem="nAX-m7-ngP" firstAttribute="top" secondItem="a4d-42-14c" secondAttribute="bottom" constant="85" id="oov-h9-Kmg"/>
+                            <constraint firstItem="a4d-42-14c" firstAttribute="top" secondItem="HJS-ew-5SD" secondAttribute="top" constant="60" id="zaG-GB-pvI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HJS-ew-5SD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zbw-6a-V1u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2981.5999999999999" y="199.25037481259372"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3zm-pz-HYk">
+            <objects>
+                <viewController id="n32-x8-N5D" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eRf-RV-JgK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BLq-0I-xP8">
+                                <rect key="frame" x="0.0" y="233" width="375" height="434"/>
+                                <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">
+بِسْمِكَ اللّٰهُمَّ اَحْيَا وَاَمُوْتُ
+Bismikallohumma ahya wa amuutu
+
+Artinya: "Dengan menyebut nama-Mu ya Allah, aku hidup dan aku mati".
+</string>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doa Sebelum Tidur" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SCW-eh-9He">
+                                <rect key="frame" x="94" y="124" width="187" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BLq-0I-xP8" firstAttribute="top" secondItem="SCW-eh-9He" secondAttribute="bottom" constant="85" id="1ki-K7-fqM"/>
+                            <constraint firstItem="BLq-0I-xP8" firstAttribute="bottom" secondItem="vtN-MO-8GW" secondAttribute="bottom" id="Bmh-Cc-MqP"/>
+                            <constraint firstItem="BLq-0I-xP8" firstAttribute="trailing" secondItem="vtN-MO-8GW" secondAttribute="trailing" id="MuF-BG-ufW"/>
+                            <constraint firstItem="BLq-0I-xP8" firstAttribute="leading" secondItem="vtN-MO-8GW" secondAttribute="leading" id="R0d-ED-3UB"/>
+                            <constraint firstItem="SCW-eh-9He" firstAttribute="leading" secondItem="vtN-MO-8GW" secondAttribute="leading" constant="94" id="ctW-GR-hNu"/>
+                            <constraint firstItem="vtN-MO-8GW" firstAttribute="trailing" secondItem="SCW-eh-9He" secondAttribute="trailing" constant="94" id="h9E-bV-L5Z"/>
+                            <constraint firstItem="SCW-eh-9He" firstAttribute="top" secondItem="vtN-MO-8GW" secondAttribute="top" constant="60" id="tDl-2B-kOT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vtN-MO-8GW"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zI1-7a-KfI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3746.4000000000001" y="196.55172413793105"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xdi-fE-lZ0">
+            <objects>
+                <viewController id="hHL-vi-PKx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Kl-sT-IRJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pu4-uJ-DVi">
+                                <rect key="frame" x="0.0" y="233" width="375" height="434"/>
+                                <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">
+اَلْحَمْدُ ِللهِ كَمَا حَسَّنْتَ خَلْقِىْ  فَحَسِّـنْ خُلُقِىْ
+Alhamdulillaahi kamaa hassanta kholqii fahassin khuluqii
+
+Artinya: "Segala puji bagi Allah, baguskanlah budi pekertiku sebagaimana Engkau telah membaguskan rupa wajahku"
+</string>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doa Ketika Bercermin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VTB-Ie-t4t">
+                                <rect key="frame" x="86" y="121" width="203" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VTB-Ie-t4t" firstAttribute="centerX" secondItem="pu4-uJ-DVi" secondAttribute="centerX" id="3ZF-jq-k6X"/>
+                            <constraint firstItem="pu4-uJ-DVi" firstAttribute="leading" secondItem="1Kl-sT-IRJ" secondAttribute="leading" id="FBm-jk-LlU"/>
+                            <constraint firstItem="pu4-uJ-DVi" firstAttribute="top" secondItem="VTB-Ie-t4t" secondAttribute="bottom" constant="88" id="Jyb-id-CGm"/>
+                            <constraint firstItem="VTB-Ie-t4t" firstAttribute="top" secondItem="bUY-fv-4t9" secondAttribute="top" constant="57" id="fjT-qi-vvF"/>
+                            <constraint firstItem="pu4-uJ-DVi" firstAttribute="bottom" secondItem="bUY-fv-4t9" secondAttribute="bottom" id="uUr-gc-XgR"/>
+                            <constraint firstAttribute="trailing" secondItem="pu4-uJ-DVi" secondAttribute="trailing" id="uuz-u7-hTX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="bUY-fv-4t9"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Smq-0r-DvP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2984.8000000000002" y="921.58920539730138"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0ci-EO-DOn">
+            <objects>
+                <viewController id="3oD-sV-DXc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oXq-qm-WSh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="T4j-nJ-XJ3">
+                                <rect key="frame" x="0.0" y="233" width="375" height="434"/>
+                                <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">
+اَللّٰهُمَّ اِنّىْ اَسْأَلُكَ خَيْرَالْمَوْلِجِ وَخَيْرَالْمَخْرَجِ بِسْمِ اللهِ وَلَجْنَا وَبِسْمِ اللهِ خَرَجْنَا وَعَلَى اللهِ رَبّنَا تَوَكَّلْنَا
+Allahumma innii as-aluka khoirol mauliji wa khoirol makhroji bismillaahi wa lajnaa wa bismillaahi khorojnaa wa'alallohi robbina tawakkalnaa
+
+Artinya: "Ya Allah, sesungguhnya aku mohon kepada-Mu baiknya tempat masuk dan baiknya tempat keluar dengan menyebut nama Allah kami masuk, dan dengan menyebut nama Allah kami keluar dan kepada Allah Tuhan kami, kami bertawakkal"
+</string>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doa Masuk Rumah" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bmq-9Z-biK">
+                                <rect key="frame" x="100" y="123" width="175" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="T4j-nJ-XJ3" firstAttribute="top" secondItem="bmq-9Z-biK" secondAttribute="bottom" constant="86" id="69i-6n-f6s"/>
+                            <constraint firstItem="bmq-9Z-biK" firstAttribute="centerX" secondItem="T4j-nJ-XJ3" secondAttribute="centerX" id="88Q-JU-nue"/>
+                            <constraint firstItem="T4j-nJ-XJ3" firstAttribute="bottom" secondItem="ZCx-ix-P7I" secondAttribute="bottom" id="DqG-6z-88Y"/>
+                            <constraint firstAttribute="trailing" secondItem="T4j-nJ-XJ3" secondAttribute="trailing" id="Jaq-1N-lLi"/>
+                            <constraint firstItem="bmq-9Z-biK" firstAttribute="top" secondItem="ZCx-ix-P7I" secondAttribute="top" constant="59" id="YVE-7Q-s6H"/>
+                            <constraint firstItem="T4j-nJ-XJ3" firstAttribute="leading" secondItem="oXq-qm-WSh" secondAttribute="leading" id="m5P-VL-4dn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZCx-ix-P7I"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pyc-yK-bdH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3765.5999999999999" y="908.9955022488756"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6jh-JA-jFR">
+            <objects>
+                <viewController id="OIM-YF-Hfv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6iK-eh-wne">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eeU-ss-0GR">
+                                <rect key="frame" x="0.0" y="233" width="375" height="434"/>
+                                <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">
+بِسْمِ اللهِ تَوَكَّلْتُ عَلَى اللهِ لاَحَوْلَ وَلاَقُوَّةَ اِلاَّ بِالله
+Bismillaahi tawakkaltu 'alalloohi laa hawlaa walaa quwwata illaa bilaahi
+
+Artinya: "Dengan menyebut nama Allah aku bertawakal kepada Allah, tiada daya kekuatan melainkan dengan pertologan Allah."
+</string>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doa Keluar Rumah" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mlT-H4-Qfa">
+                                <rect key="frame" x="101" y="124" width="173" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eeU-ss-0GR" firstAttribute="bottom" secondItem="ngu-9z-XnQ" secondAttribute="bottom" id="07g-cg-tWG"/>
+                            <constraint firstItem="mlT-H4-Qfa" firstAttribute="top" secondItem="ngu-9z-XnQ" secondAttribute="top" constant="60" id="CXs-Nt-uWl"/>
+                            <constraint firstItem="eeU-ss-0GR" firstAttribute="leading" secondItem="ngu-9z-XnQ" secondAttribute="leading" id="Gg3-YG-Z8T"/>
+                            <constraint firstItem="eeU-ss-0GR" firstAttribute="top" secondItem="mlT-H4-Qfa" secondAttribute="bottom" constant="85" id="Iq9-UX-qFg"/>
+                            <constraint firstItem="mlT-H4-Qfa" firstAttribute="leading" secondItem="ngu-9z-XnQ" secondAttribute="leading" constant="101" id="NsK-Pi-W7n"/>
+                            <constraint firstItem="ngu-9z-XnQ" firstAttribute="trailing" secondItem="mlT-H4-Qfa" secondAttribute="trailing" constant="101" id="Tw4-mv-S3r"/>
+                            <constraint firstItem="eeU-ss-0GR" firstAttribute="top" secondItem="mlT-H4-Qfa" secondAttribute="bottom" constant="85" id="VvT-6X-n6l"/>
+                            <constraint firstItem="eeU-ss-0GR" firstAttribute="trailing" secondItem="ngu-9z-XnQ" secondAttribute="trailing" id="cHP-sF-6iU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ngu-9z-XnQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ze-TG-f5f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4576.8000000000002" y="900.89955022488766"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7nl-Di-y6y">
+            <objects>
+                <viewController id="d7O-uE-uj2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Da-4E-sJ0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="a9B-R2-kfq">
+                                <rect key="frame" x="0.0" y="233" width="375" height="434"/>
+                                <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">اَلْحَمْدُ لِلّٰهِ الَّذِىْ كَسَانِىْ هَذَا وَرَزَقَنِيْهِ مِنْ غَيْرِ حَوْلٍ مِنِّىْ وَلاَقُوَّةٍ
+Alhamdu lillaahil ladzii kasaanii haadzaa wa rozaqoniihi min ghoiri hawlim minni wa laa quwwatin
+
+Artinya: "Segala puji bagi Allah yang memberi aku pakaian ini dan memberi rizeki dengan tiada upaya dan kekuatan dariku"
+</string>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doa Memakai Pakaian" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdF-YL-Sjj">
+                                <rect key="frame" x="83" y="124" width="209" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="a9B-R2-kfq" firstAttribute="top" secondItem="bdF-YL-Sjj" secondAttribute="bottom" constant="85" id="5tJ-a2-HZo"/>
+                            <constraint firstItem="ytY-az-mgy" firstAttribute="trailing" secondItem="bdF-YL-Sjj" secondAttribute="trailing" constant="83" id="SIr-O1-Lzx"/>
+                            <constraint firstItem="a9B-R2-kfq" firstAttribute="top" secondItem="bdF-YL-Sjj" secondAttribute="bottom" constant="85" id="SWa-6S-ogY"/>
+                            <constraint firstItem="bdF-YL-Sjj" firstAttribute="top" secondItem="ytY-az-mgy" secondAttribute="top" constant="60" id="U1c-dj-pqj"/>
+                            <constraint firstItem="a9B-R2-kfq" firstAttribute="trailing" secondItem="ytY-az-mgy" secondAttribute="trailing" id="l3D-xb-VID"/>
+                            <constraint firstItem="bdF-YL-Sjj" firstAttribute="leading" secondItem="ytY-az-mgy" secondAttribute="leading" constant="83" id="meo-UI-H9o"/>
+                            <constraint firstItem="a9B-R2-kfq" firstAttribute="leading" secondItem="ytY-az-mgy" secondAttribute="leading" id="xnn-cn-WOC"/>
+                            <constraint firstItem="a9B-R2-kfq" firstAttribute="bottom" secondItem="ytY-az-mgy" secondAttribute="bottom" id="z8N-Ch-tCD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ytY-az-mgy"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YEt-u4-rvm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5309.6000000000004" y="908.9955022488756"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="KFc-Ez-BUR">
+            <objects>
+                <viewController id="9Fj-9P-sqk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jTX-lH-gvS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RvH-zs-m5q">
+                                <rect key="frame" x="0.0" y="233" width="375" height="434"/>
+                                <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">
+اَللّٰهُمَّ اِنّىْ اَعُوْذُبِكَ مِنَ الْخُبُثِ وَالْخَبَآئِثِ
+Alloohumma Innii a'uudzubika minal khubutsi wal khoaaitsi
+
+Artinya: "Ya Allah, aku berlindung pada-Mu dari godaan syetan  laki-laki dan syetan perempuan"
+</string>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doa Masuk Kamar Mandi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zgQ-CW-Kyb">
+                                <rect key="frame" x="66" y="124" width="243" height="24"/>
+                                <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zgQ-CW-Kyb" firstAttribute="leading" secondItem="pjC-C0-ITd" secondAttribute="leading" constant="66" id="2As-C9-8b3"/>
+                            <constraint firstItem="RvH-zs-m5q" firstAttribute="trailing" secondItem="pjC-C0-ITd" secondAttribute="trailing" id="nZl-af-m1U"/>
+                            <constraint firstItem="RvH-zs-m5q" firstAttribute="leading" secondItem="pjC-C0-ITd" secondAttribute="leading" id="oRj-3S-SdO"/>
+                            <constraint firstItem="RvH-zs-m5q" firstAttribute="top" secondItem="zgQ-CW-Kyb" secondAttribute="bottom" constant="85" id="qK2-HN-xVc"/>
+                            <constraint firstItem="pjC-C0-ITd" firstAttribute="trailing" secondItem="zgQ-CW-Kyb" secondAttribute="trailing" constant="66" id="rxL-1D-g2U"/>
+                            <constraint firstItem="pjC-C0-ITd" firstAttribute="bottom" secondItem="RvH-zs-m5q" secondAttribute="bottom" id="vv5-AB-vRJ"/>
+                            <constraint firstItem="RvH-zs-m5q" firstAttribute="top" secondItem="zgQ-CW-Kyb" secondAttribute="bottom" constant="85" id="wMI-It-iz5"/>
+                            <constraint firstItem="zgQ-CW-Kyb" firstAttribute="top" secondItem="pjC-C0-ITd" secondAttribute="top" constant="60" id="wtH-rL-62O"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pjC-C0-ITd"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PWN-aI-yl3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4527.1999999999998" y="197.45127436281859"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Khb-VW-2gp">
+            <objects>
+                <viewController id="oxm-hI-MWw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xzz-4v-4hR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HKk-Zi-gBu">
+                                <rect key="frame" x="0.0" y="233" width="375" height="434"/>
+                                <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">
+اَللّٰهُمَّ طَهِّرُ قَلْبِىْ مِنَ النِّفَاقِ وَحَصِّنْ فَرْخِىْ مِنَ الْفَوَاحِشِ
+Alloohumma thahhir qolbii minan nifaaqi wa hashshin fajrii minal fawaahisyi
+
+Artinya : "Wahai Tuhanku, sucikanlah hatiku dari sifat kepura-puraan (munafiq) serta peliharalah kemaluanku dari perbuatan keji"</string>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doa Istinja" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqm-iZ-7qG">
+                                <rect key="frame" x="133" y="124" width="109" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92729908227920532" green="0.090204991400241852" blue="0.03708137571811676" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tvb-17-VyH" firstAttribute="trailing" secondItem="zqm-iZ-7qG" secondAttribute="trailing" constant="133" id="0PD-yd-rF2"/>
+                            <constraint firstItem="zqm-iZ-7qG" firstAttribute="top" secondItem="tvb-17-VyH" secondAttribute="top" constant="60" id="6WV-Tm-gKp"/>
+                            <constraint firstItem="HKk-Zi-gBu" firstAttribute="leading" secondItem="tvb-17-VyH" secondAttribute="leading" id="Eqv-6o-gNk"/>
+                            <constraint firstItem="HKk-Zi-gBu" firstAttribute="top" secondItem="zqm-iZ-7qG" secondAttribute="bottom" constant="85" id="Jez-RY-ocG"/>
+                            <constraint firstItem="zqm-iZ-7qG" firstAttribute="leading" secondItem="tvb-17-VyH" secondAttribute="leading" constant="133" id="M5O-JJ-Ow7"/>
+                            <constraint firstItem="HKk-Zi-gBu" firstAttribute="trailing" secondItem="tvb-17-VyH" secondAttribute="trailing" id="gYb-P2-H3a"/>
+                            <constraint firstItem="HKk-Zi-gBu" firstAttribute="top" secondItem="zqm-iZ-7qG" secondAttribute="bottom" constant="85" id="i65-63-fEy"/>
+                            <constraint firstItem="HKk-Zi-gBu" firstAttribute="bottom" secondItem="tvb-17-VyH" secondAttribute="bottom" id="nki-GY-4G7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tvb-17-VyH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9TT-fG-gcc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5309.6000000000004" y="193.85307346326837"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="sIg-1r-5Xg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="RCf-MR-fO4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="H7w-Tg-18T">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="jey-kg-msR" kind="relationship" relationship="rootViewController" id="JdT-A3-oBP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8vz-6V-yas" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="413.60000000000002" y="225.33733133433284"/>
+        </scene>
+    </scenes>
+</document>
